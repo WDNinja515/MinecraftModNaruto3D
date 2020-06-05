@@ -1,0 +1,10 @@
+{
+  "parent": "item/handheld",
+  "loader": "forge:obj",
+  "model": "wdns3dnm:models.item/windmill_shuriken.obj",
+  "detectCullableFaces": true,
+  "diffuseLighting": true,
+  "flip-v": true,
+  "ambientToFullbright": true,
+  "materialLibraryOverride": "wdns3dnm:models.item/windmill_shuriken.mtl"
+}
