@@ -1,6 +1,5 @@
 package wdns3dnm.wdns3dnm;
 
-import net.minecraftforge.client.event.TextureStitchEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -11,10 +10,10 @@ import org.apache.logging.log4j.Logger;
 
 
 
-@Mod("wdns3dnm")
+@Mod("examplemod")
 public class WDNs3DNM {
     public static WDNs3DNM instance;
-    public static final String MOD_ID = "wdns3dnm";
+    public static final String MOD_ID = "examplemod";
     public static final Logger LOGGER = LogManager.getLogger();
     private final Object StringReader = new Object();
 

@@ -25,14 +25,6 @@ public class RegistryEvents {
 
     }
 
-    @SubscribeEvent
-    public static void registerBlocks(final RegistryEvent.Register<Block> event) {
-        event.getRegistry().registerAll
-                (
-                        BlockList.sasuke_susanoo_perfect = new Block(Block.Properties.create(Material.IRON)).setRegistryName(location("sasuke_susanoo_perfect"))
-                        );
-    }
-
     private static ResourceLocation location(String name) {
         return new ResourceLocation(MOD_ID, name);
 
